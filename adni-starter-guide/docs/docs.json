@@ -11,14 +11,36 @@
         "group": "Getting started",
         "pages": [
           "index",
-          "03-getting-access"
+          "what-is-adni",
+          "03-getting-access",
+          "downloads",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Understand the data",
+        "pages": [
+          "the-cast",
+          "data-modalities",
+          "phases",
+          "data-structure"
         ]
       },
       {
         "group": "Hands-on guide",
         "pages": [
-          "14-build-a-cohort",
-          "09-first-analysis"
+          "build-a-cohort",
+          "first-analysis",
+          "pitfalls"
+        ]
+      },
+      {
+        "group": "Publishing and reference",
+        "pages": [
+          "publication-policy",
+          "glossary",
+          "resources-faq",
+          "contributing"
         ]
       }
     ]

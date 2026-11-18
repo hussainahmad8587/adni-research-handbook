@@ -1,0 +1,34 @@
+---
+title: "Five-minute exercise"
+---
+
+**You’ll need:** this page and five minutes. Every row below was invented for this exercise.
+
+**Question:** How many fictional participants have a completed cognitive assessment at their index visit?
+
+| Participant | Index visit |
+|---|---|
+| SYN-A | baseline |
+| SYN-B | baseline |
+| SYN-C | baseline |
+
+| Participant | Visit | Assessment complete? |
+|---|---|---|
+| SYN-A | baseline | Yes |
+| SYN-A | follow-up | Yes |
+| SYN-B | follow-up | Yes |
+| SYN-C | baseline | No |
+
+1. Circle the assessments from the index visit.
+2. Count people with a **completed** assessment at that visit.
+3. Sort the remaining people into **no matching visit** and **matched visit, incomplete assessment**.
+
+### Reveal the answer
+
+**One** qualifies: SYN-A. SYN-B has no matching baseline assessment. SYN-C has a matching baseline row with an incomplete assessment.
+
+A join on participant alone would match SYN-A twice and attach SYN-B’s follow-up to its baseline. Use both person and visit in this fictional exercise. For real exports, verify those keys against the dictionary and test the expected number of matches.
+
+
+
+[**Run the notebook**](docs/09-first-analysis.md) · [Learn why joins multiply rows](docs/05-data-structure.md) · [Prepare your access application](checklists/applicant.md)

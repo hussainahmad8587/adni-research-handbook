@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If this guide helped you, please cite it as a tutorial. Always cite ADNI itself per its official acknowledgment policy."
+title: "ADNI Starter Guide: an unofficial community guide to the Alzheimer's Disease Neuroimaging Initiative"
+type: software
+authors:
+  - name: "ADNI Starter Guide contributors"
+license: MIT
+version: "2026.2"
+keywords:
+  - ADNI
+  - Alzheimer's disease
+  - neuroimaging
+  - tutorial

@@ -1,0 +1,8 @@
+flowchart TD
+    A["Draft your research plan"] --> B["Read the DUA"]
+    B --> C["Submit through ADNI"]
+    C --> D{"ADNI response"}
+    D -->|"More detail requested"| A
+    D -->|"Approved"| E["Open IDA"]
+    classDef ready fill:#d1fae5,stroke:#047857,color:#052e16
+    class E ready

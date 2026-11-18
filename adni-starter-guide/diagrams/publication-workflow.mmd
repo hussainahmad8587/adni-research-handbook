@@ -1,9 +1,0 @@
-flowchart TD
-    A["Read the current DUA"] --> B["Add byline and acknowledgments"]
-    B --> C{"Participant data in public files?"}
-    C -->|Yes| D["Remove and recheck"]
-    D --> C
-    C -->|No| E["Send manuscript to the ADNI DPC"]
-    E --> F["After review, submit to journal"]
-    classDef finish fill:#d1fae5,stroke:#047857,color:#052e16
-    class F finish

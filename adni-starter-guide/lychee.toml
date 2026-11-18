@@ -1,6 +1,0 @@
-max_retries = 3
-timeout = 30
-max_concurrency = 8
-exclude = [
-  '^https://ida\.loni\.usc\.edu/?$', # sign-in route, review manually
-]

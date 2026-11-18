@@ -9,11 +9,17 @@
     "groups": [
       {
         "group": "Getting started",
-        "pages": ["03-getting-access"]
+        "pages": [
+          "index",
+          "03-getting-access"
+        ]
       },
       {
         "group": "Hands-on guide",
-        "pages": ["14-build-a-cohort", "09-first-analysis"]
+        "pages": [
+          "14-build-a-cohort",
+          "09-first-analysis"
+        ]
       }
     ]
   }

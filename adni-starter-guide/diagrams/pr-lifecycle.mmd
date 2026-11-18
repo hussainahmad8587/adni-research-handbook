@@ -1,0 +1,9 @@
+flowchart LR
+    A["Edit"] --> B["Open PR"] --> C{"CI checks"}
+    C -->|"data guard fails"| X["Fix and push"]:::stop
+    X --> B
+    C -->|"links or diagrams fail"| X
+    C -->|"all green"| D["Reviewer"]
+    D --> E["Merge"] --> F["Update last-verified<br/>date if facts changed"]:::good
+    classDef good fill:#d4edda,stroke:#2e7d32,color:#1a1a1a
+    classDef stop fill:#f8d7da,stroke:#c0392b,color:#1a1a1a

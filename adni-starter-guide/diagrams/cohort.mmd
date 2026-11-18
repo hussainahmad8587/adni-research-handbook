@@ -1,0 +1,6 @@
+flowchart TD
+    A["12 people reviewed"] -->|"2 lack an eligible index visit"| B["10 with an index visit"]
+    B -->|"3 lack a scan in the window"| C["7 with a candidate scan"]
+    C -->|"1 fails image QC"| D["6 people in the analysis"]
+    classDef final fill:#d1fae5,stroke:#047857,color:#052e16
+    class D final

@@ -1,0 +1,17 @@
+flowchart LR
+    S["Clinical sites<br/>US and Canada"] -->|"visits, scans, samples"| C
+    subgraph C["ADNI cores"]
+        CL["Clinical core"]
+        MR["MRI core"]
+        PT["PET core"]
+        BM["Biomarker core"]
+        GN["Genetics core"]
+    end
+    C -->|"QC and processing"| I["LONI IDA<br/>data archive"]
+    I -->|"after approval"| R(["You"])
+    classDef src fill:#dbeafe,stroke:#1d4ed8,color:#1a1a1a
+    classDef core fill:#fff3cd,stroke:#b58900,color:#1a1a1a
+    classDef you fill:#d4edda,stroke:#2e7d32,color:#1a1a1a
+    class S src
+    class CL,MR,PT,BM,GN,I core
+    class R you

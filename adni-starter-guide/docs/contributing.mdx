@@ -29,7 +29,7 @@ flowchart LR
 
 | Mechanism | What it does | Where |
 |-----------|--------------|-------|
-| **Verified tags** | Each volatile fact carries `` | All chapters |
+| **Verified tags** | Each volatile fact carries `<!-- verified: DATE \| source: URL \| item: ID -->` | All chapters |
 | **Freshness check** | Fails or warns when a tag is older than ~3 months or `never` | `scripts/check_verified.py`, `freshness.yml` |
 | **Register** | Review dates and sources | [VERIFICATION.md](https://github.com/hussainahmad8587/adni-research-handbook/blob/main/adni-starter-guide/VERIFICATION.md) |
 | **Link check** | Weekly and on PRs; opens an issue if links rot | `links.yml` (lychee) |

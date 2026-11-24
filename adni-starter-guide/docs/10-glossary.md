@@ -74,4 +74,4 @@
 | **xMAP / Elecsys** | Luminex-based / Roche assay platforms | Different CSF assay platforms | Check the assay documentation |
 
 ---
-[← 09 · First analysis](09-first-analysis.md) · [🏠 Home](../README.md) · [Next → 11 · Resources & FAQ](11-resources-faq.md)
+[← 09 · First analysis](09-first-analysis.md) · [🏠 Home](https://github.com/hussainahmad8587/adni-research-handbook/blob/main/adni-starter-guide/README.md) · [Next → 11 · Resources & FAQ](11-resources-faq.md)

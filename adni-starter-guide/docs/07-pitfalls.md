@@ -112,4 +112,4 @@ Count people and rows separately. Check phase, tracer, and assay definitions. De
 </details>
 
 ---
-[← 06 · Phases](06-phases.md) · [🏠 Home](../README.md) · [Next → 08 · Publication policy](08-publication-policy.md)
+[← 06 · Phases](06-phases.md) · [🏠 Home](https://github.com/hussainahmad8587/adni-research-handbook/blob/main/adni-starter-guide/README.md) · [Next → 08 · Publication policy](08-publication-policy.md)
